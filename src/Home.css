@@ -3,3 +3,7 @@
   height: 100px;
   margin-left: 20px;
 }
+.home__section {
+  display: flex;
+  padding: 30px;
+}
