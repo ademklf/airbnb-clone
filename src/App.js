@@ -12,7 +12,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/airbnb-clone" element={<Home />}></Route>
           <Route path="/search" element={<SearchPage />}></Route>
         </Routes>
 
