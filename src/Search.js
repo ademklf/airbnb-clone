@@ -21,6 +21,7 @@ function Search() {
   function handleSelect(ranges) {
     setStartDate(ranges.selection.startDate);
     setEndDate(ranges.selection.endDate);
+    /**/
   }
 
   return (
