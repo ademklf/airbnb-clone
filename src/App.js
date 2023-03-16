@@ -3,12 +3,12 @@ import Home from "./Home";
 import Header from "./Header";
 import Footer from "./Footer";
 import SearchPage from "./SearchPage";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <HashRouter>
+      <Router>
         <Header />
 
         <Routes>
@@ -17,7 +17,7 @@ function App() {
         </Routes>
 
         <Footer />
-      </HashRouter>
+      </Router>
     </div>
   );
 }
